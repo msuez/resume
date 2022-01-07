@@ -15,6 +15,7 @@ export const AppRouter = () => {
             <div>
                 <Routes>
                     <Route exact path="/" element={ <ResumeScreen /> } />
+                    <Route exact path="/resume" element={ <ResumeScreen /> } />
                     <Route exact path="/resume/contact" element={ <ContactScreen /> } />
                     <Route path="*" element={ <Navigate to="/" /> } />
                 </Routes>
